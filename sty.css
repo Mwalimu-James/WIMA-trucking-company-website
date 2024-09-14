@@ -1,0 +1,212 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 9999; /* Ensure it's above other elements */
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none; /* Initially hide the menu */
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  nav ul li a {
+    color: white;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  nav ul li a:hover {
+    color: #f0f0f0; /* Change hover color */
+  }
+  
+  nav ul li ul {
+    display: none; /* Initially hide the dropdown menu */
+    position: absolute;
+    background-color: #333;
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  nav ul li:hover ul {
+    display: block; /* Show the dropdown menu on hover */
+  }
+  
+  nav ul li ul li {
+    display: block;
+    padding: 5px;
+  }
+  .content {
+    margin-top: 50px; /* Adjust margin based on your layout */
+  }
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+#mylogo img {
+    width: 200px;
+    height: 100px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    float: left;
+  }
+#About h3 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #0c1153;
+  text-align: center;
+}
+#Aboutbody {
+    background-image: url(https://media.istockphoto.com/id/1401266149/photo/mercedes-benz-actros.jpg?s=612x612&w=0&k=20&c=U9URYpTnXcQ7vEZBMM9V1J_IxQpLfkd4S5hTKltu-_4=);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    color: #070707;
+    text-align: center;
+    font-size: 20px;
+  }
+#Services h3 {
+    font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #f50808;
+  text-align: center;
+}
+#Cereals h5 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #06f311;
+  text-align: center;
+  
+}
+#cerealscenterd {
+    text-align: left;
+}
+#Cerealsbody {
+    background-image: url(https://dailynews.co.tz/wp-content/uploads/2023/06/Capture-20-780x402.jpg);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    color: #070707;
+    text-align: center;
+    font-size: 20px;
+  }
+#Steel h5 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #0616f3;
+  text-align: center;
+}
+#Steelbody {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZjkcxqETGT0MNxjLbSRF-BRQ7egec7yxuA&s);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    color: #09ee09;
+    text-align: center;
+    font-size: 20px;
+  }
+#livestock h5 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #f37106;
+  text-align: center;
+}
+#livestockbody {
+    background-image: url(https://static01.nyt.com/images/2024/05/15/multimedia/00TRANSPORT-01-bmth/00TRANSPORT-01-bmth-videoSixteenByNine3000.jpg);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    color: #0cecce;
+    text-align: center;
+    font-size: 20px;
+  }
+#Medical h5 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #0680f3;
+  text-align: center;
+}
+#Medicalbody {
+    background-image: url(https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/16-10-2023-UNICEF-Gaza-Al-Areesh.jpg/image1440x560cropped.jpg);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    color: #f8e007;
+    text-align: center;
+    font-size: 20px;
+  }
+#military h5 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #f30606;
+  text-align: center;
+}
+#militarybody {
+    background-image: url(https://static.timesofisrael.com/www/uploads/2023/12/equipment.jpeg);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    text-align: center;
+    color: #ad0b0b;
+    text-align: center;
+    font-size: 20px;
+  }
+#tech h5 {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #f306ac;
+  text-align: center;
+}
+#techbody {
+    background-image: url(https://www.jacobstransport.co.za/wp-content/uploads/2020/10/DSC7699-1-1024x539.jpg);
+    background-size: cover; /* Cover the entire background area */
+    background-position: center; /* Center the image within the background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-size: cover;
+    
+    
+    color: #941182;
+    text-align: center;
+    font-size: 20px;
+  }
+  #contactus {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #0616f3;
+  text-align: center;
+  }
+#contactusbody {
+    font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #0a0a0a;
+  text-align: center;
+}
